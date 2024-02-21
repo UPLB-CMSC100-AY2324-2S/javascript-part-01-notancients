@@ -7,6 +7,26 @@
     <script src="robles_script.js"></script> 
 </head>
 <body>
-    
+    <form >
+        <label for="name">Name: </label>
+        <input type="text" id="name"><br>
+        <label for="pass1">Password 1: </label>
+        <input type="text" id="pass1"><br>
+        <label for="pass2">Password 2: </label>
+        <input type="text" id="pass2"><br>
+        <label for="theButton"></label>
+        <button type="button"onclick="validateInputs()">Submit</button>
+    </form>
+    <p id="nameOutput"></p>
+    <p id="passwordOutput"></p>
 </body>
 </html>
+
+
+<!-- 
+References 
+https://www.w3schools.com/tags/tag_input.asp
+https://www.w3schools.com/jsref/event_onsubmit.asp
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_label 
+-->
